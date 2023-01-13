@@ -90,10 +90,13 @@ body {
 .top {
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
     width: 1200px;
     padding: 0 58px;
     display: flex;
+}
+
+.top .logo {
+    margin-right: auto;
 }
 
 .top ul {
@@ -125,24 +128,42 @@ body {
     width: 100%;
 }
 
-.top ul .top_right {
-    height: 82px;
-    line-height: 82px;
-    padding: 0 20px;
+.top .top_menu {
     align-items: center;
+    display: flex;
+    margin-left: 30px;
 }
 
-.top ul .top_right .submit_btn {
+.top .top_menu .submit_btn {
     background-color: #ffef6b;
     padding: 12px 20px;
     border-radius: 24px;
     text-align: center;
 }
 
-.top ul i {
+.top .top_menu i {
     padding-left: 20px;
     font-size: 30px;
     line-height: 82px;
+}
+
+.top .top_menu a:first-child:hover {
+    color: #555;
+    display: block;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.top.sub .nav {
+    color: #fff;
+}
+
+.top.sub ul li::after {
+    background-color: #fff;
+}
+
+.top .submit_btn {
+    color: #111;
 }
 
 .container .slider {
