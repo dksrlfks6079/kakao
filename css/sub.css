@@ -198,12 +198,13 @@ h2 {
 }
 
 .sub_product05 .accordion {
+    width: 1070px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 .sub_product05 .accordion .detail_box {
     overflow: hidden;
     border-bottom: 1px solid #ababab;
-    width: 1070px;
 }
 
 .sub_product05 .accordion .detail_box h2 {
@@ -220,19 +221,14 @@ h2 {
 }
 
 .sub_product05 .accordion .text {
-    height: 0;
+    display: none;
     overflow: hidden;
     background-color: #f1f1f1;
 }
+
 .sub_product05 .detail_box.active h2 {
     background-color: #f1f1f1;
     border-bottom: 1px solid #ababab;
-}
-
-.sub_product05 .detail_box.active .text {
-    height: auto;
-    padding: 50px 10px;
-    transition: all 0.5s;
 }
 
 .sub_product05 .text .black {

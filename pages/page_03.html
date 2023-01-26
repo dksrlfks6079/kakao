@@ -12,6 +12,7 @@
             rel="stylesheet"
             href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
         />
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     </head>
     <body>
         <div class="container">
@@ -364,7 +365,11 @@
                 </div>
             </div>
         </div>
-
-        <script src="../app.js"></script>
+        <script>
+            var item = $(".detail_box h2")
+            $(item).click(function () {
+                $(this).next().slideToggle("acitve")
+            })
+        </script>
     </body>
 </html>
