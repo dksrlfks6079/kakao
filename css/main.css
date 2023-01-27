@@ -136,6 +136,8 @@ body {
 .top .top_menu .btn {
     background-color: #ffef6b;
     padding: 12px 20px;
+    border: 1px solid #ffef6b;
+
     border-radius: 24px;
     text-align: center;
 }
@@ -177,7 +179,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 877px;
-    background-image: url(/images/main.png);
+    background-image: url(../images/main.png);
 }
 
 .container .main {
